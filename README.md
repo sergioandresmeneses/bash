@@ -2,17 +2,17 @@
 
 Table of Content
 
-1. Basic Overview
+1. [Basic Overview](BasicOverview.md)
     * Background
     * Basic Syntax
     * Functions
     * Variables
     * RE
-2. System Management
+2. [System Management](SystemManagement.md)
     * Text
     * Documents
     * Processes
-3. Avanced Scripting
+3. [Avanced Scripting](AdvancedScripting.md)
     * Diff & Patch
     * Execution Tracing
     * Best Practices
