@@ -6,6 +6,11 @@
 ---
 ### Basic Syntax
 
+ * Simple Math: expr
+  > i=`expr $1 + 1`
+ 
+  * Finding Commands ` $ type ls `
+
  * if-elif-else-fi
  ```
  if grep pattern myfile > /dev/nul
