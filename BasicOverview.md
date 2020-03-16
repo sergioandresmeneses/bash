@@ -3,6 +3,8 @@
 ---
 ### Background
 
+ > #!/bin/bash
+
 ---
 ### Basic Syntax
 
@@ -13,7 +15,7 @@
 
  * if-elif-else-fi
  ```
- if grep pattern myfile > /dev/nul
+ if grep pattern myfile > /dev/null
  then
     ...
  else
@@ -35,6 +37,9 @@
         ...
     fi
  ```
+
+ > Always keep close the list of test expressions
+ > if [ -f $file ] && [ -w $file ]; then...
 
  * The CASE Statement
 
@@ -116,7 +121,7 @@ PPID | process ID of parent process
 Operator | Meaning
 --- | --- 
 ++-- | increment and decrement
-+ - | addition and subtraction
++- | addition and subtraction
 == != | equal and not equal
 < <= => > | Comparisons
 && | Logical AND

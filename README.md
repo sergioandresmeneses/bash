@@ -1,4 +1,4 @@
-# BASH: Knowledge notes
+# BASH: Knowledge Notes
 
 Table of Content
 
@@ -13,8 +13,10 @@ Table of Content
     * Documents
     * Processes
 3. [Avanced Scripting](AdvancedScripting.md)
+    * Special files; /dev/null /dev/tty
     * Diff & Patch
     * Execution Tracing
+    * Cron
     * Best Practices
 
 > Extra documentation about Bash:

@@ -1,24 +1,27 @@
 # System Management
 ---
-### Text
+### Texts
  * Cat: showing file's data. `cat /etc/passwd`
  * Cut: Cutting out data from a text `cut -d : -f 1,5 /etc/passwd`
  * Join: Merging files ` join file1 file2 `
  * Awk: Rearranging fields ` awk -F: '{ print $1, $5 }' /etc/passwd `
- * Sort: 
- * uniq:
+ * Sort: Sorting text from an output
+ * uniq: 
  * wc:
+ * Head & Tail: Extract the first and last lines ` [head | tail] -n <value> -f /etc/passwd `
+ * Pipelines `|`
 
 ---
 ### Documents
- * Pipelines `|`
  * Read: reading documents
  ```
     while read line; do echo $line; done < file
  ```
- * Finding files: ` locate - find -  `
+  > Read can be used for reading data from the user: ` $ echo "What is your name?"; read name; echo "Welcome $name" `
+ * Finding files: ` locate - find `
  * FileSystem: ` DF - DU `
-
+ * Permissions: ` chmod `
+ * Ownership: ` chown `
 
 ---
 ### Processes
