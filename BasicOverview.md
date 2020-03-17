@@ -132,7 +132,7 @@ Operator | Meaning
 ### RE -regular expressions
 
 Special Characters:
-` \ . * ^ $ [...] + ?   `
+` \ . * ^ $ [...] + ? `
 
 ```
  $ sed 's/:.*//' /etc/passwd | sort -u
@@ -140,3 +140,10 @@ Special Characters:
 
 > Commands:
 > grep, egrep, find, sed, awk
+
+### Activity Week1
+
+Create a BASH script with the concepts used in this section to backup a given path directory.
+ > The directoy might exist or not.
+ > Include a help section using *case* : -h | --help )
+ > Don't forget to validate all possible error cases.
